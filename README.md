@@ -110,7 +110,7 @@ And my GPU is "only" used at around 70%, so I still have lot of room. I can tell
 
 ## How do I remove the FPS counter and the 3 squares?
 ### FPS counter only
-- Download the `45410806 - Breaker Island Artist Disable FPS Counter.patch.toml` file attached
+- Download the [`45410806 - Breaker Island Artist Disable FPS Counter.patch.toml`](https://github.com/Adriwin06/Game-Patches/blob/main/patches/45410806%20-%20Breaker%20Island%20Artist%20Disable%20FPS%20Counter.patch.toml) file from my other repository.
 - Drop it in the `patches` folder
 - Done. The FPS counter is now hidden, but the 3 squares are still there.
 
