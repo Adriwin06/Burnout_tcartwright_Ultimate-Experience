@@ -109,21 +109,13 @@ And my GPU is "only" used at around 70%, so I still have lot of room. I can tell
 - Enjoy your new shortcut on your Desktop. It launch the game, set it in Fullscreen, and have a beautiful logo
 
 ## How do I remove the FPS counter and the 3 squares?
-### FPS counter only
-- Download the [`45410806 - Breaker Island Artist Disable FPS Counter.patch.toml`](https://github.com/Adriwin06/Game-Patches/blob/main/patches/45410806%20-%20Breaker%20Island%20Artist%20Disable%20FPS%20Counter.patch.toml) file from my other repository.
+### FPS counter and 3 squares
+- Download the [`45410806 - Breaker Island Artist Disable Performances Monitors.patch.toml`](https://github.com/Adriwin06/Game-Patches/blob/main/patches/45410806%20-%20Breaker%20Island%20Artist%20Disable%20Performances%20Monitors.patch.toml) file from my Game-Patches repository.
 - Drop it in the `patches` folder
-- Done. The FPS counter is now hidden, but the 3 squares are still there.
+- Done. The fps counter and the 3 squares are now hidden
 
-### FPS counter + 3 squares
-
-**Simple answer**: *you can't.* You either play at a good resolution with a draw resolution above 1x and play the `artist.xex` but you have those, or you play the `external.xex` and you won't have those anymore, but you will need to play at 1x res or the reflections on the cars will flicker horribly.
-
-**Long answer**: *you can* use the keyboard as a 2nd controller with Xenia and press the key that hide it with a script:
-- Set `keyboard_user_index = 1`
-- Check that `keybind_right_thumb = "K"`
-- Download and install [AutoHotkey](https://www.autohotkey.com/) v 2.0
-- Download my script `HideFPS.ahk`
-- Put it where you can easily access it
-- Double click on it to launch it (nothing will show up on screen but it will be running)
-- Launch the game, and press **M**. It will press indefinitely **K** until you press **M** again, and will hide the :red_square: :green_square: :green_square:
-- When you exit the game, close AutoHotkeys by going down on the taskbar -> Show hiddden icons -> right click AutoHotkey -> Exit
+## Bonus
+### Increased Vehicle LODs Distance
+- Download the [`45410806 - Breaker Island Artist Graphics Vehicles LOD.patch.toml`](https://github.com/Adriwin06/Game-Patches/blob/main/patches/45410806%20-%20Breaker%20Island%20Artist%20Graphics%20Vehicles%20LOD.patch.toml) file from my Game-Patches repository.
+- Drop it in the `patches` folder
+- Done. The vehicle LODs distance is now increased for better quality
