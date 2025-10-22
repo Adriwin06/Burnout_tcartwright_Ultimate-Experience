@@ -15,7 +15,7 @@ set shortcutPath="%USERPROFILE%\Desktop\Burnout Paradise 1.0 Xenia.lnk"
 
 :: URL of the icon
 set iconUrl="https://www.adriwin.fr/cloud/For_Programs/tcartwright_logo.ico"
-set iconPath="%TEMP%\tcartwright.ico"
+set iconPath="%xeniaPath%\tcartwright.ico"
 
 :: Download the icon
 powershell -Command "(New-Object System.Net.WebClient).DownloadFile('%iconUrl%', '%iconPath%')"
